@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height:100vh;
+    background-color: #000;
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.digital-clock{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#17d4fe;
+    font-size: 82px;
+    font-weight: 700;
+    text-shadow: 2px 2px 15px #17d4fe;
+}
+
+@media all and (max-width:1200px){
+    .digital-clock{
+        font-size:62px;
+    }
+}
+
+@media all and (max-width:900px){
+    .digital-clock{
+        font-size:32px;
+    }
+}
+
+@media all and (max-width:600px){
+    .digital-clock{
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width:600px){
+    .digital-clock{
+        font-size:18px;
+    }
+}
